@@ -3,10 +3,11 @@ package breaker
 import (
 	"errors"
 	"fmt"
-	"github.com/getsentry/sentry-go"
-	"github.com/tech-xiwi/limit/utils"
 	"strings"
 	"sync"
+
+	"github.com/getsentry/sentry-go"
+	"github.com/tech-xiwi/limit/utils"
 )
 
 const (

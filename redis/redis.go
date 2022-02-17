@@ -5,12 +5,13 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
-	"github.com/tech-xiwi/limit/breaker"
-	"github.com/tech-xiwi/limit/syncx"
-	"github.com/tech-xiwi/limit/utils"
 	"io"
 	"strconv"
 	"time"
+
+	"github.com/tech-xiwi/limit/breaker"
+	"github.com/tech-xiwi/limit/syncx"
+	"github.com/tech-xiwi/limit/utils"
 
 	red "github.com/go-redis/redis/v8"
 )

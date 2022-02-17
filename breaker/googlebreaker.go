@@ -1,10 +1,11 @@
 package breaker
 
 import (
-	"github.com/tech-xiwi/limit/collection"
-	"github.com/tech-xiwi/limit/utils"
 	"math"
 	"time"
+
+	"github.com/tech-xiwi/limit/collection"
+	"github.com/tech-xiwi/limit/utils"
 )
 
 const (

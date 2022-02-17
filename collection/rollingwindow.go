@@ -1,9 +1,10 @@
 package collection
 
 import (
-	"github.com/tech-xiwi/limit/utils"
 	"sync"
 	"time"
+
+	"github.com/tech-xiwi/limit/utils"
 )
 
 type (

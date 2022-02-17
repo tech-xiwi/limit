@@ -2,11 +2,12 @@ package redis
 
 import (
 	"context"
-	red "github.com/go-redis/redis/v8"
-	"github.com/tech-xiwi/limit/utils"
 	"log"
 	"strings"
 	"time"
+
+	red "github.com/go-redis/redis/v8"
+	"github.com/tech-xiwi/limit/utils"
 )
 
 var (
